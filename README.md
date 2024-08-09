@@ -12,8 +12,8 @@ This calculator supports exponentials, nth roots, trigonometric and logarithmic 
 - Square Root: sqrt(x)
 - Nth root: nthroot(n, x)
 ### Logarithm
-- Log on a base 10: log10(x)
-- Log on a base e (natural log): ln(x)
+- Log on base 10: log10(x)
+- Log on base e (natural log): ln(x)
 - Log on a specific base: log(base, x)
 ### Trigonometry
 - Sine: sin(x)
