@@ -1,9 +1,9 @@
-# Multipurpose Calculator
+# Calculator
 This calculator supports exponentials, nth roots, trigonometric and logarithmic functions.
 ## How to use
 ### 4 Operations
-- addination: +
-- subtraction: -
+- Addination: +
+- Subtraction: -
 - Multiplication: *
 - Division: /
 - Modulo: %
@@ -33,7 +33,7 @@ This calculator supports exponentials, nth roots, trigonometric and logarithmic 
 - E: e (~2.718)
 - Golden Ratio: phi (~1.168)
 ## How It Works
-First, the program takes your expression and clears the blanks. Then it takes the expression to `parse_expression`. In this section, the program takes again the expression to `parse_term`. Because multiplication, division, exponantiation comes before addination and subtraction. But in `parse_term` function, the program goes to `parse_factor` which solves trigonometric, logarithmic and root functions. After solving paranthesis and other functions, the program goes back to `parse_term` to handle multiplication, division etc. After this section, the program goes back to `parse_expression` and handles addination and subtraction. The final result will be showed on the screen. Here are a few examples:<br/>
+First, the program takes your expression and clears the blanks. Then it takes the expression to `parse_expression`. In this section, the program takes again the expression to `parse_term`. Because multiplication, division, exponentiation comes before addination and subtraction. But in `parse_term` function, the program goes to `parse_factor` which solves trigonometric, logarithmic and root functions. After solving paranthesis and other functions, the program goes back to `parse_term` to handle multiplication, division etc. After this section, the program goes back to `parse_expression` and handles addination and subtraction. The final result will be showed on the screen. Here are a few examples:<br/>
 ### Example 1: `4 + 5 * (3 / sqrt(1)) / log10(100)`
 - 1. Clearing the spaces: `4+5*(3/sqrt(1))/log10(100)`
 - 2. Handling functions and paranthesis: `4+5*(3/1)/2` -> `4+5*3/2`
